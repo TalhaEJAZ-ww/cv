@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+<style>
+ *{box-sizing: border-box;
+}
+ body{
+   
+    background-color: lightslategray;
+    padding-bottom: 40px; 
+     
+}
+form{
+    margin-left: 500px;
+}
+
+</style>
+</head>
+<body>
+<form action="/action_page.php" method="post">
+    <h2>Sign Up</h2>
+          <h2>Basic Information Section</h2> <br>
+<div>
+<label for="emailId">Email</label><br>
+<input type="email" id="emailId" name="emailId" required="required" autofocus="true">
+</div>
+<br>
+<div>
+<label for="pwd">Password</label><br>
+<input type="password" required="required" id="pwd" name="pwd">
+</div>
+<br>
+<div>
+<label for="rePwd">Retype Password</label><br>
+<input type="password" required="required" id="rePwd" name="rePwd">
+</div>
+<br>
+<div>
+<label for="firstName">First Name</label><br>
+<input type="text" name="firstName" required="required" id="firstName">
+</div>
+<br>
+<div>
+<label for="lastName">Last Name</label><br>
+<input type="text" name="lastName" required="required" id="lastName">
+</div>
+<br>
+<div>
+<label for="phone">Phone number</label><br>
+<input type="number" id="phone" name="phone" required="required">
+</div>
+<br>
+<div>
+<label for="address">Address</label><br>
+<input type="text" id="address" name="address" required="required">
+</div>
+<br>
+<div>
+<label for="city">City</label><br>
+<input type="text" id="city" required="required" name="city">
+</div>
+<br>
+<div>
+<label for="province">Province</label><br>
+<select id="province" name="province">
+<option>Option1</option>
+<option>Option2</option>
+<option>Option3</option>
+<option>Option4</option>
+<option>Option5</option>
+<option>Option6</option>
+</select>
+</div>
+<br>
+<div>
+<label for="country">Country</label><br>
+<input list="country" id="country" name="country">
+<datalist id="country">
+<option value="USA">
+<option value="Canada">
+<option value="India">
+<option value="Russia">
+<option value="China">
+</datalist>
+</div>
+<br>
+
+<h2> Eduction Section </h2><br>
+<div>
+<label for="school">School</label><br>
+<input type="text" id="school" required="required" name="school">
+</div>
+<br>
+<div>
+<label for="program">Program</label><br>
+<input type="text" id="program" required="required" name="program">
+</div>
+<br>
+<div>
+<label for="edulevel">Education level</label><br>
+<select id="edulevel" name="edulevel" required="required">
+<option>select</option>
+<option>Technical Diploma</option>
+<option> College Diploma</option>
+<option>Bachelor's Degree</option>
+<option>Master's Degree</option>
+<option>Others</option>
+</select>
+</div>
+<br>
+<div>
+<label>Education Status</label><br>
+<input type="radio" name="">Graduated <br>
+<input type="radio" name="">Current enrolled <br>
+<input type="radio" name="">Did not graduate <br>
+</div>
+<br>
+<div>
+<label for="gdate">Graduation Date</label><br>
+<input type="date" id="gdate" name="gdate"><br>
+</div>
+<br>
+
+<h2> Work Experience Section </h2><br>
+<div>
+<label for="employer">Employer</label><br>
+<input type="text" id="employer" name="employer">
+</div>
+<br>
+<div>
+<label for="jobt">Job title</label><br>
+<input type="text" id="jobt" name="jobt">
+</div>
+<br>
+<div>
+<label for="jobd">Job Duty</label><br>
+<input type="text" id="jobd" name="jobd">
+</div>
+<br>
+<div>
+<label for="workedy">Worked Year</label><br>
+<input type="text" id="workedy" name="workedy">
+</div>
+<br>
+<div>
+<label for="attachments">Attachments</label><br>
+<input type="file" id="attachments" name="attachments">
+</div>
+<br>
+<div>
+<input type="submit" value="Apply" name="Apply">
+<input type="reset" value="Reset" name="Reset">
+</div>
+<br>
+</form>
+</body>
+</html>
